@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-height: 100svh;
+    overflow: hidden;
+}
+
+body>header {
+    width: 100%;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+#container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+}
+
+main>section {
+    padding: 10px;
+}
+
+#blog-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.blog-card {
+    box-shadow: 2px 1px 10px black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#form-container {
+    width: 100%;
+}
+
+#blog-form {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#blog-form .input-box {
+    width: 100%;
+}
+
+.input-box>input {
+    width: 100%;
+    padding: 2px 4px;
+}

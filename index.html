@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-time Blogs</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="handson.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Add Blogs</h1>
+    </header>
+
+    <main id="container">
+        <section id="blog-container">
+            <!-- The blogs need to be rendered here -->
+        </section>
+        <section id="form-container">
+            <!-- Add blogs form -->
+            <form id="blog-form">
+                <h1>Blog Form</h1>
+                <div class="input-box">
+                    <label for="title">Blog Title</label><input id="title" name="title" type="text"
+                        class="input-element" />
+                </div>
+                <div class="input-box">
+                    <label for="sub-title">Sub-title</label><input id="sub-title" name="sub-title" type="text"
+                        class="input-element" />
+                </div>
+                <div class="input-box">
+                    <label for="description">Description</label><input id="description" name="description" type="text"
+                        class="input-element" />
+                </div>
+                <div class="input-box">
+                    <label for="author">Author Name</label><input id="author" name="author" type="text"
+                        class="input-element" />
+                </div>
+                <button type="submit" id="submit-button">Add blog</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
