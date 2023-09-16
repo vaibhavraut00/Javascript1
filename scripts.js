@@ -9,7 +9,6 @@ function onChange(event) {
 function onSubmit(event) {
   event.preventDefault();
 
-  console.log(currentBlog);
   blogsToRender = [...blogsToRender, currentBlog];
 
   addCurrentBlogToBlogContainer();
